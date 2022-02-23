@@ -76,6 +76,7 @@
     "access": "public"
   },
   "blueprint": {
+    "ansible_galaxy_project_id": "58189",
     "description": "Installs Deno (an alternative to Node.js that supports TypeScript and is built with security in mind) on nearly any platform",
     "github_id": "R_kgDOG5PaGw",
     "gitlab_group_id": "12261670",
@@ -89,8 +90,7 @@
     },
     "slug": "deno",
     "subgroup": "role",
-    "title": "Deno Ansible Role",
-    "ansible_galaxy_project_id": "58189"
+    "title": "Deno Ansible Role"
   },
   "changelog": {
     "displayTypes": [
