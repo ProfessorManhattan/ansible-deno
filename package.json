@@ -86,7 +86,10 @@
     },
     "slug": "deno",
     "subgroup": "role",
-    "title": "Deno Ansible Role"
+    "title": "Deno Ansible Role",
+    "github_id": "R_kgDOG5PaGw",
+    "gitlab_project_id": "33976172",
+    "gitlab_group_id": "12261670"
   },
   "changelog": {
     "displayTypes": [
