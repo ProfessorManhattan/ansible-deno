@@ -72,11 +72,14 @@
     "node": ">=14.18.0"
   },
   "publishConfig": {
-    "@megabyte:registry": "https://gitlab.com/api/v4/projects//packages/npm/",
+    "@megabyte:registry": "https://gitlab.com/api/v4/projects/33976172/packages/npm/",
     "access": "public"
   },
   "blueprint": {
     "description": "Installs Deno (an alternative to Node.js that supports TypeScript and is built with security in mind) on nearly any platform",
+    "github_id": "R_kgDOG5PaGw",
+    "gitlab_group_id": "12261670",
+    "gitlab_project_id": "33976172",
     "group": "ansible",
     "name": "Deno",
     "overview": "[Deno](https://deno.land/) is a modern runtime for JavaScript and TypeScript. It is advertised as a simple runtime that uses V8 and Rust. It is boasted as secure-by-default because there is no file, network, or environment access unless explicitly enabled. Deno compiles apps into single executables. An app made with Deno generally specifies its dependencies as URLs mainly hosted in the [Deno standard module repository](https://deno.land/std).",
@@ -86,10 +89,7 @@
     },
     "slug": "deno",
     "subgroup": "role",
-    "title": "Deno Ansible Role",
-    "github_id": "R_kgDOG5PaGw",
-    "gitlab_project_id": "33976172",
-    "gitlab_group_id": "12261670"
+    "title": "Deno Ansible Role"
   },
   "changelog": {
     "displayTypes": [
