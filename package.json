@@ -89,7 +89,8 @@
     },
     "slug": "deno",
     "subgroup": "role",
-    "title": "Deno Ansible Role"
+    "title": "Deno Ansible Role",
+    "ansible_galaxy_project_id": "58189"
   },
   "changelog": {
     "displayTypes": [

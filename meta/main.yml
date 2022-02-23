@@ -3,7 +3,8 @@ galaxy_info:
   role_name: deno
   namespace: professormanhattan
   author: ProfessorManhattan
-  description: Installs Deno (an alternative to Node.js that supports TypeScript and is built with security in mind) on nearly any platform
+  description: Installs Deno (an alternative to Node.js that supports TypeScript and
+    is built with security in mind) on nearly any platform
   company: Megabyte Labs
   issue_tracker_url: https://gitlab.com/megabyte-labs/ansible-roles/deno/-/issues
   license: license (MIT)
