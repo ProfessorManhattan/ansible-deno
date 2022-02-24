@@ -1,10 +1,5 @@
 lockfileVersion: 5.3
 
-neverBuiltDependencies:
-  - core-js
-  - core-js-pure
-  - highlight.js
-
 specifiers:
   '@commitlint/config-conventional': ^16.0.0
   '@washingtondc/development': latest
@@ -79,9 +74,6 @@ packages:
     peerDependencies:
       '@babel/core': '>=7.11.0'
       eslint: ^7.5.0 || ^8.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@babel/core': 7.17.5
       eslint: 8.9.0
@@ -373,10 +365,10 @@ packages:
       '@commitlint/execute-rule': 16.2.1
       '@commitlint/resolve-extends': 16.2.1
       '@commitlint/types': 16.2.1
-      '@types/node': 17.0.19
+      '@types/node': 17.0.21
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 1.0.5_003c8a6da24af261bf8b8ce51aec1adf
+      cosmiconfig-typescript-loader: 1.0.5_99a448058f874aec2a353d0e974167cc
       lodash: 4.17.21
       resolve-from: 5.0.0
       typescript: 4.5.5
@@ -745,8 +737,8 @@ packages:
     resolution: {integrity: sha512-NqfoW12eXMdDJz3g3NHnopEgDoqdY1YshO6XxIVPOqotGTDcjD1sL28AVKskbYveGmHBPdHieRRv6M9Iq7dt4w==}
     dev: true
 
-  /@humanwhocodes/config-array/0.9.3:
-    resolution: {integrity: sha512-3xSMlXHh03hCcCmFc0rbKp3Ivt2PFEJnQUJDDMTJQ2wkECZWdq4GePs2ctc5H8zV+cHPaq8k2vU8mrQjA6iHdQ==}
+  /@humanwhocodes/config-array/0.9.5:
+    resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
     engines: {node: '>=10.10.0'}
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
@@ -766,7 +758,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 17.0.19
+      '@types/node': 17.0.21
       '@types/yargs': 15.0.14
       chalk: 4.1.2
     dev: true
@@ -944,9 +936,6 @@ packages:
     resolution: {integrity: sha512-hR2U3uVcrrdkuG30ItQ+uFDs4ncZAybxWG0OjTE8ptPzVoU7GVeXpy+vMU8zX9EbmjGeITPw/su5HjYQyAH8bA==}
     peerDependencies:
       typescript: ^3 || ^4
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
       esquery: 1.4.0
       typescript: 4.5.5
@@ -956,9 +945,6 @@ packages:
     resolution: {integrity: sha512-Nxkq+Gl8bGbutRV7e3/p5d+Bcftn75oH61RT8xzk44T5ET7fVP50pUdaOdvt704GSNr6wwmfBW8MhBz5IKt+fA==}
     peerDependencies:
       prettier: ^1.15.0 || ^2.0.0
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       linguist-languages: 7.15.0
       mem: 8.1.1
@@ -970,9 +956,6 @@ packages:
     resolution: {integrity: sha512-Izo+m3pb15Ym7t3J+u22kun7bQXZOj+lAqkIc5ifxwd9En9OqcCShZz7eABORmzmY276IjSfY92Ijd23nLR68Q==}
     peerDependencies:
       prettier: ^2.3.0
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       prettier: 2.5.1
       pug-lexer: 5.0.1
@@ -1268,7 +1251,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.3
-      '@types/node': 17.0.19
+      '@types/node': 17.0.21
       '@types/responselike': 1.0.0
     dev: true
 
@@ -1314,7 +1297,7 @@ packages:
   /@types/keyv/3.1.3:
     resolution: {integrity: sha512-FXCJgyyN3ivVgRoml4h94G/p3kY+u/B86La+QptcqJaWtBWtmc6TtkNfS40n9bIvyLteHh7zXOtgbobORKPbDg==}
     dependencies:
-      '@types/node': 17.0.19
+      '@types/node': 17.0.21
     dev: true
 
   /@types/mdast/3.0.10:
@@ -1327,8 +1310,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/17.0.19:
-    resolution: {integrity: sha512-PfeQhvcMR4cPFVuYfBN4ifG7p9c+Dlh3yUZR6k+5yQK7wX3gDgVxBly4/WkBRs9x4dmcy1TVl08SY67wwtEvmA==}
+  /@types/node/17.0.21:
+    resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1342,7 +1325,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 17.0.19
+      '@types/node': 17.0.21
     dev: true
 
   /@types/retry/0.12.1:
@@ -1377,8 +1360,6 @@ packages:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
       typescript: '*'
     peerDependenciesMeta:
-      eslint:
-        optional: true
       typescript:
         optional: true
     dependencies:
@@ -1403,9 +1384,6 @@ packages:
     engines: {node: ^8.10.0 || ^10.13.0 || >=11.10.1}
     peerDependencies:
       eslint: '*'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@types/json-schema': 7.0.9
       '@typescript-eslint/typescript-estree': 2.34.0_typescript@4.5.5
@@ -1422,9 +1400,6 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@typescript-eslint/utils': 5.12.1_eslint@8.9.0+typescript@4.5.5
       eslint: 8.9.0
@@ -1440,8 +1415,6 @@ packages:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
       typescript: '*'
     peerDependenciesMeta:
-      eslint:
-        optional: true
       typescript:
         optional: true
     dependencies:
@@ -1470,8 +1443,6 @@ packages:
       eslint: '*'
       typescript: '*'
     peerDependenciesMeta:
-      eslint:
-        optional: true
       typescript:
         optional: true
     dependencies:
@@ -1536,9 +1507,6 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@types/json-schema': 7.0.9
       '@typescript-eslint/scope-manager': 5.12.1
@@ -1565,9 +1533,6 @@ packages:
     engines: {node: '>=14.18.0'}
     peerDependencies:
       typescript: '>=4.2.4'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
       '@commitlint/cli': 15.0.0
       '@commitlint/config-conventional': 15.0.0
@@ -2828,29 +2793,28 @@ packages:
 
   /core-js-pure/3.21.1:
     resolution: {integrity: sha512-12VZfFIu+wyVbBebyHmRTuEE/tZrB4tJToWcwAMcsp3h4+sHR+fMJWbKpYiCRWlhFBq+KNyO8rIV9rTkeVmznQ==}
+    requiresBuild: true
     dev: true
 
   /core-js/3.21.1:
     resolution: {integrity: sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==}
+    requiresBuild: true
     dev: true
 
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
-  /cosmiconfig-typescript-loader/1.0.5_003c8a6da24af261bf8b8ce51aec1adf:
+  /cosmiconfig-typescript-loader/1.0.5_99a448058f874aec2a353d0e974167cc:
     resolution: {integrity: sha512-FL/YR1nb8hyN0bAcP3MBaIoZravfZtVsN/RuPnoo6UVjqIrDxSNIpXHCGgJe0ZWy5yImpyD6jq5wCJ5f1nUv8g==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@types/node': '*'
       typescript: '>=3'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
-      '@types/node': 17.0.19
+      '@types/node': 17.0.21
       cosmiconfig: 7.0.1
-      ts-node: 10.5.0_003c8a6da24af261bf8b8ce51aec1adf
+      ts-node: 10.5.0_99a448058f874aec2a353d0e974167cc
       typescript: 4.5.5
     transitivePeerDependencies:
       - '@swc/core'
@@ -3474,9 +3438,6 @@ packages:
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -3552,11 +3513,6 @@ packages:
     peerDependencies:
       eslint: ^8.0.0
       typescript: ^4.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
-      typescript:
-        optional: true
     dependencies:
       '@typescript-eslint/experimental-utils': 5.12.1_eslint@8.9.0+typescript@4.5.5
       eslint: 8.9.0
@@ -3571,9 +3527,6 @@ packages:
     resolution: {integrity: sha512-lwYPyg6fq6IQyNwLHkls1sjIXNWvY6RQx8S8hLTcgC+ldKYHd8Dc0G1qBpbQXoBFBrUmz73ZNyP1lMsAP8A33A==}
     peerDependencies:
       eslint: '>=5.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       chalk: 2.4.2
       eslint: 8.9.0
@@ -3583,9 +3536,6 @@ packages:
     resolution: {integrity: sha512-fqZ2G45rgbrHcFunqmwuG5Qo6QAOlxEsR+KdOP08T1Xegw5tJhHh9KFWMSct8q6x8xCMUyYGHypZd342bLUttA==}
     peerDependencies:
       eslint: ^5 || ^6 || ^7 || ^8
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       chalk: 4.1.2
       eslint: 8.9.0
@@ -3642,9 +3592,6 @@ packages:
     engines: {node: '>= 6.8.0'}
     peerDependencies:
       eslint: '>=3.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -3667,9 +3614,6 @@ packages:
     engines: {node: '>=8.10.0'}
     peerDependencies:
       eslint: '>=4.19.1'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
       eslint-utils: 2.1.0
@@ -3681,9 +3625,6 @@ packages:
     engines: {node: '>=6.5.0'}
     peerDependencies:
       eslint: '>=4.19.1'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       escape-string-regexp: 1.0.5
       eslint: 8.9.0
@@ -3695,11 +3636,6 @@ packages:
     peerDependencies:
       eslint: ^8.0.0
       typescript: ^4.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
-      typescript:
-        optional: true
     dependencies:
       '@phenomnomnominal/tsquery': 4.2.0_typescript@4.5.5
       '@typescript-eslint/experimental-utils': 5.12.1_eslint@8.9.0+typescript@4.5.5
@@ -3721,9 +3657,6 @@ packages:
     resolution: {integrity: sha512-tqxJTiEM5a0JmRCUYQmxw23vtTxrb2+a3Q2mMOPhFxvt7ZQQJmdiuMby9B/vUAuVMghyP7oET+nIf6EO6CBd/w==}
     peerDependencies:
       eslint: '*'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
       lodash.camelcase: 4.3.0
@@ -3737,9 +3670,6 @@ packages:
     engines: {node: '>=4.0.0'}
     peerDependencies:
       eslint: '>=3'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       create-eslint-index: 1.0.0
       eslint: 8.9.0
@@ -3756,8 +3686,6 @@ packages:
       tsutils: ^3.0.0
       typescript: ^3.4.1 || ^4.0.0
     peerDependenciesMeta:
-      eslint:
-        optional: true
       tsutils:
         optional: true
       typescript:
@@ -3783,9 +3711,6 @@ packages:
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       array-includes: 3.1.4
       array.prototype.flat: 1.2.5
@@ -3815,9 +3740,6 @@ packages:
     engines: {node: ^10.12.0 || >=12.0.0, npm: '>=6', yarn: '>=1'}
     peerDependencies:
       eslint: '>=6.8'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@babel/runtime': 7.17.2
       '@testing-library/dom': 7.31.2
@@ -3830,9 +3752,6 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=0.8.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -3846,8 +3765,6 @@ packages:
       jest: '*'
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
-        optional: true
-      eslint:
         optional: true
       jest:
         optional: true
@@ -3865,9 +3782,6 @@ packages:
     engines: {node: ^12 || ^14 || ^16 || ^17}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@es-joy/jsdoccomment': 0.20.1
       comment-parser: 1.3.0
@@ -3886,9 +3800,6 @@ packages:
     resolution: {integrity: sha512-Ib7PVrho5a08OI05VyVEkwb2u1jDWeDoHsIngaZFVi4OsnLObcW6gb3xO6VSYHUDvC5CTQans7vVjLUslcCMiA==}
     peerDependencies:
       eslint: '>=6.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       ajv: 8.10.0
       debug: 4.3.3
@@ -3909,9 +3820,6 @@ packages:
     engines: {node: '>=8.10.0'}
     peerDependencies:
       eslint: '>=5.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
       eslint-utils: 3.0.0_eslint@8.9.0
@@ -3932,9 +3840,6 @@ packages:
     peerDependencies:
       '@typescript-eslint/parser': '>= 2.27.0'
       eslint: '>= 6.x'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@typescript-eslint/experimental-utils': 2.34.0_eslint@8.9.0+typescript@4.5.5
       '@typescript-eslint/parser': 5.12.1_eslint@8.9.0+typescript@4.5.5
@@ -3951,9 +3856,6 @@ packages:
     engines: {node: '>=10.0.0', npm: '>=6.9.0'}
     peerDependencies:
       eslint: '>=3.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -3962,9 +3864,6 @@ packages:
     resolution: {integrity: sha512-92opuXbjWmXcod94EyCKhp36V1QHLM/ArAST2ssgKOojALne0eZvSPfrg4oyr0EwTXvy0RJNe/Tkm33VkDUrKQ==}
     peerDependencies:
       eslint: ^5 || ^6 || ^7
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -3984,9 +3883,6 @@ packages:
     engines: {node: '>=8.10.0'}
     peerDependencies:
       eslint: '>=5.16.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
       eslint-plugin-es: 3.0.1_eslint@8.9.0
@@ -4008,9 +3904,6 @@ packages:
     resolution: {integrity: sha512-J9I5PKCOJretVuiZRGvPQxCbllxGAV/viI20JO3LYblAodofBxyMnZAJ+WGeClHgANnSJberTNoFWWjrWKBuXQ==}
     peerDependencies:
       eslint: '>=2.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -4023,11 +3916,7 @@ packages:
       eslint-config-prettier: '*'
       prettier: '>=2.0.0'
     peerDependenciesMeta:
-      eslint:
-        optional: true
       eslint-config-prettier:
-        optional: true
-      prettier:
         optional: true
     dependencies:
       eslint: 8.9.0
@@ -4040,9 +3929,6 @@ packages:
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
       eslint: ^7.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -4052,9 +3938,6 @@ packages:
     engines: {node: ^12 || >=14}
     peerDependencies:
       eslint: '>=6.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       comment-parser: 1.3.0
       eslint: 8.9.0
@@ -4072,11 +3955,6 @@ packages:
     peerDependencies:
       eslint: ^8.0.0
       typescript: ^4.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
-      typescript:
-        optional: true
     dependencies:
       '@typescript-eslint/experimental-utils': 5.12.1_eslint@8.9.0+typescript@4.5.5
       common-tags: 1.8.2
@@ -4104,9 +3982,6 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -4116,9 +3991,6 @@ packages:
     engines: {node: '>=4.0.0'}
     peerDependencies:
       eslint: '>=0.8.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
     dev: true
@@ -4145,9 +4017,6 @@ packages:
     resolution: {integrity: sha512-Y4eGb9q7i0i+UyZAXl3QAqcxkds2X7tfctXPllL7X+PpBXD/3wiqq1RNeoiLmHI9evpO1BjyuakffJZuGM7ElA==}
     peerDependencies:
       eslint: '>=6.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       debug: 4.3.3
       eslint: 8.9.0
@@ -4171,11 +4040,6 @@ packages:
       '@typescript-eslint/parser': ^1 || ^2 || ^3 || ^4 || ^5
       eslint: ^5 || ^6 || ^7 || ^8
       typescript: ^3 || ^4
-    peerDependenciesMeta:
-      eslint:
-        optional: true
-      typescript:
-        optional: true
     dependencies:
       '@typescript-eslint/experimental-utils': 5.12.1_eslint@8.9.0+typescript@4.5.5
       '@typescript-eslint/parser': 5.12.1_eslint@8.9.0+typescript@4.5.5
@@ -4192,9 +4056,6 @@ packages:
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=7.32.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
       ci-info: 3.3.0
@@ -4225,8 +4086,6 @@ packages:
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
         optional: true
-      eslint:
-        optional: true
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.12.1_aa3af6382115a42a71cc388b7b2c30b3
       eslint: 8.9.0
@@ -4238,9 +4097,6 @@ packages:
     engines: {node: '>=10.0.0'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
       requireindex: 1.1.0
@@ -4250,9 +4106,6 @@ packages:
     resolution: {integrity: sha512-af0WgO3qaH+RW6jv1s6RzXKlg2NZLisN95lqGUf1KqBT6rEJyGSCpM49QYaSTvzmMaB/gcdbrnAfNoYwUn0Yig==}
     peerDependencies:
       eslint: '>=6.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       debug: 4.3.3
       eslint: 8.9.0
@@ -4292,9 +4145,6 @@ packages:
     resolution: {integrity: sha512-3ydhqFpuV7x1M9EK52BPNj6V0Kwu0KKkcIAfpUhwHbR8ocRln/oUHgfxQupY8O1h4Qv/POHDumb/BwwNfxbtnA==}
     peerDependencies:
       eslint: '>=7.0.0'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       '@babel/core': 7.17.5
       '@babel/eslint-parser': 7.17.0_@babel+core@7.17.5+eslint@8.9.0
@@ -4318,9 +4168,6 @@ packages:
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
-    peerDependenciesMeta:
-      eslint:
-        optional: true
     dependencies:
       eslint: 8.9.0
       eslint-visitor-keys: 2.1.0
@@ -4347,7 +4194,7 @@ packages:
     hasBin: true
     dependencies:
       '@eslint/eslintrc': 1.1.0
-      '@humanwhocodes/config-array': 0.9.3
+      '@humanwhocodes/config-array': 0.9.5
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.3
@@ -4606,7 +4453,7 @@ packages:
     dependencies:
       readable-web-to-node-stream: 3.0.2
       strtok3: 6.3.0
-      token-types: 4.1.1
+      token-types: 4.2.0
     dev: true
 
   /fill-range/4.0.0:
@@ -5285,6 +5132,7 @@ packages:
   /highlight.js/9.18.5:
     resolution: {integrity: sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==}
     deprecated: Support has ended for 9.x series. Upgrade to @latest
+    requiresBuild: true
     dev: true
 
   /homedir-polyfill/1.0.3:
@@ -7749,9 +7597,6 @@ packages:
     engines: {node: '>=10.0.0'}
     peerDependencies:
       prettier: ^2.0.0
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       prettier: 2.5.1
       ulid: 2.3.0
@@ -7776,9 +7621,6 @@ packages:
     engines: {node: '>=12.0.0'}
     peerDependencies:
       prettier: '>=2.1.2'
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       binary-search-bounds: 2.0.5
       comment-parser: 1.3.0
@@ -7794,11 +7636,6 @@ packages:
     peerDependencies:
       prettier: '>=2.0'
       typescript: '>=2.9'
-    peerDependenciesMeta:
-      prettier:
-        optional: true
-      typescript:
-        optional: true
     dependencies:
       prettier: 2.5.1
       typescript: 4.5.5
@@ -7814,9 +7651,6 @@ packages:
     resolution: {integrity: sha512-lObSgVaTVWSyYWxKMOzRGmvQp64S1qumu5vS91ZlMc198ay8EGUuDH+Tc019iMJXc2KNpdAYif2qAJA6mjTkgA==}
     peerDependencies:
       prettier: '>=1.11.0'
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       dot-properties: 1.0.1
       linguist-languages: 7.15.0
@@ -7827,9 +7661,6 @@ packages:
     resolution: {integrity: sha512-2MWRdGOSz0yf/z2kTKF1AqxDuH9MZD8faoDAz5ySGphxssi9oyM3Ys+jp7AfqsCXvGUDbRA4EJOlKS0yZKAW6w==}
     peerDependencies:
       prettier: ^2.0.5
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       mvdan-sh: 0.5.0
       prettier: 2.5.1
@@ -7840,9 +7671,6 @@ packages:
     engines: {node: '>=12'}
     peerDependencies:
       prettier: ^2.3.0
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       '@solidity-parser/parser': 0.14.1
       emoji-regex: 10.0.0
@@ -7857,9 +7685,6 @@ packages:
     resolution: {integrity: sha512-HSBn1f1ZbFIqWm9vVJcdQl1tzdh8qYZbBNK7z3iWhDO/DXM7gZH2HnS5r99e3tYqf34WIdo2nSCWaqylo+5fPw==}
     peerDependencies:
       prettier: ^2.0.0
-    peerDependenciesMeta:
-      prettier:
-        optional: true
     dependencies:
       node-sql-parser: 4.1.1
       prettier: 2.5.1
@@ -9154,8 +8979,8 @@ packages:
       safe-regex: 1.1.0
     dev: true
 
-  /token-types/4.1.1:
-    resolution: {integrity: sha512-hD+QyuUAyI2spzsI0B7gf/jJ2ggR4RjkAo37j3StuePhApJUwcWDjnHDOFdIWYSwNR28H14hpwm4EI+V1Ted1w==}
+  /token-types/4.2.0:
+    resolution: {integrity: sha512-P0rrp4wUpefLncNamWIef62J0v0kQR/GfDVji9WKY7GDCWy5YbVSrKUTam07iWPZQGy0zWNOfstYTykMmPNR7w==}
     engines: {node: '>=10'}
     dependencies:
       '@tokenizer/token': 0.3.0
@@ -9186,7 +9011,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /ts-node/10.5.0_003c8a6da24af261bf8b8ce51aec1adf:
+  /ts-node/10.5.0_99a448058f874aec2a353d0e974167cc:
     resolution: {integrity: sha512-6kEJKwVxAJ35W4akuiysfKwKmjkbYxwQMTBaAxo9KKAx/Yd26mPUyhGz3ji+EsJoAgrLqVsYHNuuYwQe22lbtw==}
     hasBin: true
     peerDependencies:
@@ -9199,15 +9024,13 @@ packages:
         optional: true
       '@swc/wasm':
         optional: true
-      typescript:
-        optional: true
     dependencies:
       '@cspotcode/source-map-support': 0.7.0
       '@tsconfig/node10': 1.0.8
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 17.0.19
+      '@types/node': 17.0.21
       acorn: 8.7.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -9226,9 +9049,6 @@ packages:
     hasBin: true
     peerDependencies:
       typescript: '>=2.7'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
       arg: 4.1.3
       create-require: 1.1.1
@@ -9262,9 +9082,6 @@ packages:
     peerDependencies:
       tsutils: ^3.0.0
       typescript: ^4.0.0
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
       '@types/yargs': 17.0.8
       tsutils: 3.21.0_typescript@4.5.5
@@ -9277,9 +9094,6 @@ packages:
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
       tslib: 1.14.1
       typescript: 4.5.5

@@ -30,7 +30,7 @@
 <br/>
 <div align="center">
   <a title="Ansible Galaxy role: professormanhattan.deno" href="https://galaxy.ansible.com/professormanhattan/deno" target="_blank">
-    <img alt="Ansible Galaxy role: professormanhattan.deno" src="https://img.shields.io/ansible/role/ansible_galaxy_project_id?logo=ansible&style=flat-square" />
+    <img alt="Ansible Galaxy role: professormanhattan.deno" src="https://img.shields.io/ansible/role/58189?logo=ansible&style=flat-square" />
   </a>
   <a title="Version: 0.0.1" href="https://github.com/ProfessorManhattan/ansible-deno" target="_blank">
     <img alt="Version: 0.0.1" src="https://img.shields.io/badge/version-0.0.1-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAACNJREFUCNdjIACY//+BEp9hhM3hAzYQwoBIAqEDYQrCZLwAAGlFKxU1nF9cAAAAAElFTkSuQmCC&cacheSeconds=2592000&style=flat-square" />
@@ -48,10 +48,10 @@
     <img alt="Linux Molecule test status" src="https://img.shields.io/gitlab/pipeline-status/megabyte-labs/ansible-roles/deno?branch=test%2Flinux&label=linux&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAAwPEEuOEIxOzswPj7///91+pI+AAAABXRSTlMANRkNJejDPNcAAAB+SURBVCjPddHBDYAgDIXhGtMRHMG7S3hvTP79VxFIQVq1wOVLm7wU8QIJpSThC2wGwwJoPQFKRdiAAIhGsAykZNSZAOVNMx4BMjwtpySgr6CDJdB/MAdJwAvSiFoE5aABHUb0ch0WHNQq+KPAOgCgrbEnbjAHArjGz3jr3hpumrQpvwi66rkAAAAASUVORK5CYII=&style=flat-square">
   </a>
   <a title="Ansible Galaxy quality score (out of 5)" href="https://galaxy.ansible.com/professormanhattan/deno" target="_blank">
-    <img alt="Ansible Galaxy quality score" src="https://img.shields.io/ansible/quality/ansible_galaxy_project_id?logo=ansible&style=flat-square" />
+    <img alt="Ansible Galaxy quality score" src="https://img.shields.io/ansible/quality/58189?logo=ansible&style=flat-square" />
   </a>
   <a title="Ansible Galaxy download count" href="https://galaxy.ansible.com/professormanhattan/deno" target="_blank">
-    <img alt="Ansible Galaxy download count" src="https://img.shields.io/ansible/role/d/ansible_galaxy_project_id?logo=ansible&label=downloads&style=flat-square">
+    <img alt="Ansible Galaxy download count" src="https://img.shields.io/ansible/role/d/58189?logo=ansible&label=downloads&style=flat-square">
   </a>
   <a title="Documentation" href="https://megabyte.space/docs/ansible" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?logo=readthedocs&logoColor=white&style=flat-square" />
