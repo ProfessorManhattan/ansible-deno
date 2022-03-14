@@ -412,7 +412,7 @@ function sha256() {
 #   ensureTaskfiles
 function ensureTaskfiles() {
   # shellcheck disable=SC2030
-  task donothing | BOOTSTRAP_EXIT_CODE=$?
+  task donothing || BOOTSTRAP_EXIT_CODE=$?
   # shellcheck disable=SC2031
   if [ -n "$BOOTSTRAP_EXIT_CODE" ]; then
     curl -sSL https://gitlab.com/megabyte-labs/common/shared/-/archive/master/shared-master.tar.gz > shared-master.tar.gz
@@ -516,6 +516,9 @@ if [ -d .git ] && type git &> /dev/null; then
   if [ "$TIME_DIFF" -gt 900 ] || [ "$TIME_DIFF" -lt 5 ]; then
     date +%s > .cache/start.sh/git-pull-time
     HTTPS_VERSION="$(git remote get-url origin | sed 's/git@gitlab.com:/https:\/\/gitlab.com\//')"
+    if [ "$(git rev-parse --abbrev-ref HEAD)" == 'synchronize' ]; then
+      git reset --hard master
+    fi
     git pull "$HTTPS_VERSION" master --ff-only
     ROOT_DIR="$PWD"
     if ls .modules/*/ > /dev/null 2>&1; then
