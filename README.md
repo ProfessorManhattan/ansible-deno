@@ -64,7 +64,7 @@
   </a>
 </div>
 
-> </br><h4 align="center">**An Ansible role that installs Deno (an alternative to Node.js that supports TypeScript and is built with security in mind) on nearly any platform**</h4></br>
+> <br/><h4 align="center">**An Ansible role that installs Deno (an alternative to Node.js that supports TypeScript and is built with security in mind) on nearly any platform**</h4><br/>
 
 <!--TERMINALIZE![terminalizer_title](https://gitlab.com/megabyte-labs/ansible-roles/deno* **github**: /raw/master/docs/demo.gif
 * **gitlab**: /-/raw/master/docs/demo.gif)TERMINALIZE-->
